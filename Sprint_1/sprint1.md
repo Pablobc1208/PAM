@@ -75,34 +75,7 @@ Se identifican dos diferenciadores clave frente a la competencia:
 
 ---
 
-## 5. Alternativas de solución
-
-Se evaluaron tres alternativas técnicas para resolver el problema:
-
-### Alternativas analizadas
-
-| Alternativa | Ventajas | Desventajas |
-|---|---|---|
-| **A. Web por QR** | Sin descargas ni registro, barata, actualizaciones al instante | Depende del móvil y conexión del cliente |
-| **B. App móvil nativa** | Notificaciones push, historial, fidelización | Barrera de descarga, doble desarrollo, cuotas de tiendas |
-| **C. Tablet/kiosco en mesa** | No necesita el móvil del cliente | 150-300 €/mesa, averías, robos, mala escalabilidad |
-
-### Comparativa ponderada (1-5)
-
-| Criterio | Peso | Web QR | App | Tablet |
-|---|---|---|---|---|
-| Coste | 25 % | 5 | 4 | 1 |
-| Fricción del cliente | 25 % | 5 | 2 | 5 |
-| Tiempo de desarrollo | 20 % | 4 | 2 | 3 |
-| Mantenimiento | 15 % | 5 | 2 | 1 |
-| Escalabilidad | 15 % | 5 | 4 | 1 |
-| **Total** | | **4,8** | **2,8** | **2,4** |
-
-**Elección: Web por QR** — Se pide en segundos sin descargar nada, no obliga al restaurante a comprar hardware y se puede construir en el plazo del proyecto.
-
----
-
-## 6. Viabilidad técnica
+## 5. Viabilidad técnica
 
 ### Stack tecnológico elegido
 
@@ -117,10 +90,24 @@ Se evaluaron tres alternativas técnicas para resolver el problema:
 
 ### Infraestructura
 
-- Desarrollo con portátiles, VS Code, PHP + Composer, Node.js, Git y GitHub. **Coste: 0 €**.
-- Servidor y BD en plan gratuito o de estudiante. **Coste: 0 € o pocos euros/mes**.
-- Pruebas con móviles propios y portátil/tablet como pantalla de cocina.
-- Demo con QR impresos en papel.
+- **Espacio de trabajo físico:** el equipo necesita un sitio fijo donde trabajar juntos. Se opta por un coworking con 3 puestos fijos (incluye internet, luz, mesas y sala de reuniones), más barato y flexible que alquilar una oficina.
+- **Material:** un portátil por miembro del equipo para desarrollar, que también sirve como pantalla de cocina en las pruebas.
+- **Software:** VS Code, PHP + Composer, Node.js, Git y GitHub. Todo gratuito.
+- **Servidor y BD:** plan gratuito o de estudiante durante el desarrollo.
+- Pruebas con móviles propios y demo con QR impresos en papel.
+
+### Costes de infraestructura (estimación)
+
+| Concepto | Detalle | Coste |
+|---|---|---|
+| Coworking | 3 puestos fijos × 150 €/mes | **450 €/mes** |
+| Portátiles | 3 equipos × 700 € (pago único) | **2.100 €** |
+| Software de desarrollo | VS Code, PHP, Node.js, Git, GitHub | 0 € |
+| Hosting y base de datos | Plan gratuito o de estudiante | 0 – 10 €/mes |
+| QR impresos | Impresión en papel para la demo | ~5 € |
+| **Total** | | **2.105 € de inversión inicial + 450 – 460 €/mes** |
+
+Los precios son estimaciones de mercado y se revisarán al hacer el presupuesto detallado en el Sprint 2.
 
 ### Competencias del equipo
 
@@ -139,7 +126,7 @@ Se evaluaron tres alternativas técnicas para resolver el problema:
 - Seguridad del QR: el pedido solo pasa a cocina después de pagar.
 - Equipo de 3 personas → alcance limitado a un MVP.
 
-**Conclusión: el proyecto es viable.** React y Laravel cubren todo lo necesario, el hosting tiene opciones gratuitas, y lo nuevo (tiempo real y Stripe) está bien documentado.
+**Conclusión: el proyecto es viable.** React y Laravel cubren todo lo necesario, el hosting tiene opciones gratuitas, la inversión inicial (portátiles y coworking) es asumible, y lo nuevo (tiempo real y Stripe) está bien documentado.
 
 ---
 
@@ -147,6 +134,6 @@ Se evaluaron tres alternativas técnicas para resolver el problema:
 
 **Pide y Pam** es una web por QR que permite a los clientes de restaurantes pedir y pagar desde su móvil sin descargar nada. El proyecto nace de un problema real: la espera frustra al 84 % de los clientes, genera pérdidas de ventas a los dueños, y la falta de personal en hostelería (50.000–100.000 trabajadores) es estructural.
 
-Frente a la competencia (Sinqro, Cuatroochenta, McDonald's, Revo XEF), PAM se diferencia por integrar pedido, TPV y cocina en una sola solución sencilla. La alternativa web por QR fue elegida por su bajo coste, nula fricción para el cliente y rápida escalabilidad (puntuación 4,8/5 ponderada).
+Frente a la competencia (Sinqro, Cuatroochenta, McDonald's, Revo XEF), PAM se diferencia por integrar pedido, TPV y cocina en una sola solución sencilla, sin que el cliente tenga que descargar nada ni el restaurante comprar hardware.
 
 Técnicamente, el proyecto se construirá con **React** (frontend) y **Laravel** (backend), con **Stripe en modo pruebas** para pagos. El equipo de 3 personas (Pablo, Adrián y Manuel) entregará un MVP funcional con carta, carrito, pago, ticket y paneles de cocina, camarero y administración.
