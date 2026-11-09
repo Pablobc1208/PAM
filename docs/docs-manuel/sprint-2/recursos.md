@@ -8,20 +8,20 @@
 
 | Miembro | Rol Scrum | Rol fijo | Responsabilidad principal |
 |---|---|---|---|
-| Sergio Montes | Product Owner | UI/UX y producto | Prioriza el backlog y define los diseños y criterios de aceptación |
+| Sergio Montes | Product Owner | Revisón Proyecto | Prioriza el backlog y criterios de aceptación |
 | Pablo Barrera | Scrum Master y desarrollo | DevOps | Dinamiza las ceremonias, gestiona el repositorio, el tablero y el despliegue |
 | Adrián González | Desarrollo | Backend | API, lógica de negocio y base de datos |
 | Manuel Arenas | Desarrollo | Frontend | Interfaz web, carta digital y pedido por QR |
 
-> Reparto propuesto: pendiente de confirmar con el equipo y con el profesor de IPE II.
+> Reparto propuesto: pendiente de confirmar con el equipo. Esto es una estimación realmente todos tocaremos, todas las partes del proyecto y las diferentes partes del Desarrollo. 
 
 ## 2. Competencias técnicas y reparto
 
-- **Backend:** [lenguaje y framework], API REST, base de datos [SGBD]
-- **Frontend:** [framework], HTML, CSS, diseño responsive
-- **UI/UX:** prototipos en [Figma] y criterios de usabilidad
-- **DevOps:** Git, GitHub Projects, integración y despliegue
-- **Apoyo cruzado:** revisión de código por pares y pruebas
+- **Backend:** [lenguaje y framework], API REST, base de datos.
+- **Frontend:** [framework], HTML, CSS, diseño responsive.
+- **UI/UX:** prototipos en [Figma] y criterios de usabilidad.
+- **DevOps:** Git, GitHub Projects, integración y despliegue.
+- **Apoyo cruzado:** revisión de código por pares y pruebas.
 
 ## 3. Recursos materiales y externos
 
