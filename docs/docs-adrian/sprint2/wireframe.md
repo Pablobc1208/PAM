@@ -1,0 +1,3 @@
+Este proyecto consiste en una solución digital para bares y restaurantes que mejora la gestión del negocio y la experiencia del cliente. El wireframe muestra la estructura básica de la aplicación, con una carta digital, pedidos online y una vista para que el restaurante gestione sus operaciones de forma más rápida y eficiente.
+
+La idea principal es digitalizar la atención al cliente y optimizar la organización interna del local, facilitando la compra desde móvil y mejorando la rapidez del servicio. El enlace del wireframe es: https://www.figma.com/make/c2xQl1PyyYO2feekhvsx0k/Wireframes-de-Experiencia-Gastron%C3%B3mica?t=ZUkySVPbghsirCEb-20&fullscreen=1
