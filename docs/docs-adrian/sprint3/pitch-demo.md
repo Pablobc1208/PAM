@@ -155,28 +155,8 @@ Para la presentación, prepararemos un prototipo navegable en Figma o una demo d
 6. Enseñar cómo aparece el pedido en cocina.
 7. Mostrar cómo el camarero lo marca como servido.
 
-**Enlace al prototipo:** [Añadir aquí el enlace de Figma o del prototipo]
 
-*Importante: si el prototipo es una simulación visual, explicaremos que el pago es de prueba y que las pantallas representan el funcionamiento previsto del MVP.*
 
----
 
-# 8. Ensayo cronometrado
 
-Realizaremos al menos un ensayo completo antes de la presentación.
 
-| Ensayo   |  Duración | Resultado             |
-| -------- | --------: | --------------------- |
-| Ensayo 1 | Pendiente | Pendiente de realizar |
-
-**Objetivo:** terminar entre 10 y 15 minutos, idealmente alrededor de 12 minutos.
-
-### Comprobaciones antes de presentar
-
-- [ ] Los tres integrantes participan.
-- [ ] Cada persona conoce su parte.
-- [ ] El prototipo se puede recorrer sin interrupciones.
-- [ ] La demo de pago está preparada en modo pruebas.
-- [ ] Se ha realizado al menos un ensayo cronometrado.
-- [ ] La presentación dura entre 10 y 15 minutos.
-- [ ] El equipo está preparado para responder preguntas.
