@@ -1,0 +1,4 @@
+# Every file in the repository is owned by Pablo (Scrum Master).
+# With "Require review from Code Owners" enabled in the branch rules,
+# no pull request can be merged into dev or main without his approval.
+* @Pablobc1208
